@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="../css/forms.css">
+<link rel="stylesheet" href="../css/media.css">
+
+<body>
+    <div class="take_home">
+        <div class="container">
+            <div class="body">
+                <h2 class="header">Забрать домой</h2>
+                <div class="close"></div>
+                <p class="info">Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете
+                    забрать себе питомца.</p>
+                <form class="form" action="index.html" method="POST">
+                    <p class="text">
+                        Фамилия и имя
+                    </p>
+                    <input class="input" type="text" id="name" required name="username"
+                        placeholder="Введите ваше имя и фамилию">
+                    <br>
+                    <p class="text">
+                        Номер телефона(только белоруcский номер)
+                    </p>
+                    <input class="input" type="number" id="telephone" required name="telephone"
+                        placeholder="Введите информация, которая будет полезна нам">
+                    <br>
+                    <p class="text">
+                        Замечяния
+                    </p>
+                    <textarea class="note" id="note" name="note" placeholder="Замечания" cols="20" rows="2">
+                </textarea>
+                    <p class="contact">
+                        Если у вас есть вопросы, можете позвонить нам:
+                    <div class="row">
+                        <div class="row__item">
+                            +375 (33) 6237879 Лена
+                        </div>
+                        <div class="row__item">
+                            +375 (29) 7877791 Ольга
+                        </div>
+                        <div class="row__item">
+                            +375 (29) 5837015 Рита
+                        </div>
+                    </div>
+                    </p>
+                    <div class="buttons">
+                        <button class="btn send" type="submit">Отправть</button>
+                        <button class="btn exit" type="button">Отмена</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="take_home">
+        <div class="container">
+            <div class="body">
+                <h2 class="header">Забрать на передержку</h2>
+                <div class="close"></div>
+                <p class="info">Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать
+                    себе питомца на передержку.</p>
+                <form class="form" action="index.html" method="POST">
+                    <p class="text">
+                        Фамилия и имя
+                    </p>
+                    <input class="input" type="text" required id="name" name="username" placeholder="Фамилия и имя">
+                    <br>
+                    <p class="text">
+                        Номер телефона(только белоруcский номер)
+                    </p>
+                    <input class="input" type="number" required id="telephone" name="telephone"
+                        placeholder="Номер телефона">
+                    <br>
+                    <p class="text">
+                        Замечяния
+                    </p>
+                    <textarea class="note" id="note" name="note" placeholder="Замечания" cols="20" rows="2"></textarea>
+                    <p class="contact">
+                        Если у вас есть вопросы, можете позвонить нам:
+                    <div class="row">
+                        <div class="row__item">
+                            +375 (33) 6237879 Лена
+                        </div>
+                        <div class="row__item">
+                            +375 (29) 7877791 Ольга
+                        </div>
+                        <div class="row__item">
+                            +375 (29) 5837015 Рита
+                        </div>
+                    </div>
+                    </p>
+                    <p class="info">Наши волонтеры будут активно искать будущий дом хвостику, пока вы помогаете нам с
+                        передержкой.
+                        Спасибо за помощь!</p>
+                    <div class="buttons">
+                        <button class="btn send" type="submit">Отправть</button>
+                        <button class="btn exit" type="button">Отмена</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="autohelp">
+        <div class="container">
+            <div class="body">
+                <form>
+                    <h2 class="header"> Автопомощь</h2>
+                    <div class="close"></div>
+                    <h3>Заявка</h3>
+                    <p class="info">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в
+                        транспортировке, мы позвоним вам.</p>
+                    <p class="text">
+                        Фамилия и имя
+                    </p>
+                    <input class="input" type="text" id="name" name="username" required placeholder="Фамилия и имя">
+                    <br>
+                    <p class="text">
+                        Номер телефона(только белоруcский номер)
+                    </p>
+                    <input class="input" type="number" id="telephone" name="telephone" required
+                        placeholder="Номер телефона">
+                    <br>
+                    <p class="text">
+                        Замечяния
+                    </p>
+                    <textarea class="note" id="note" name="note"
+                        placeholder="Опишите,   как вы сможете нам помочь и удобное время для вас" cols="20"
+                        rows="2"> </textarea>
+                    <br>
+                    <div class="buttons">
+                        <button class="btn send" type="submit">Оставить заявку</button>
+                        <button class="btn exit" type="button">Отмена</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="volunteering">
+        <div class="container">
+            <div class="body">
+                <form>
+                    <h2 class="header"> Волонтерство</h2>
+                    <h3>Заявка</h3>
+                    <p class="info">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь, мы
+                        позвоним
+                        вам.</p>
+                    <p class="text">
+                        Фамилия и имя
+                    </p>
+                    <input class="input" type="text" id="name" name="username" required placeholder="Фамилия и имя">
+                    <br>
+                    <p class="text">
+                        Номер телефона(только белоруcский номер)
+                    </p>
+                    <input class="input" type="number" id="telephone" name="telephone" required
+                        placeholder="Номер телефона">
+                    <br>
+                    <input class="radio" type="radio" id="option 1" value="value1" name="can_help">
+                    <label for="option 1">
+                        Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)
+                    </label>
+                    <br>
+                    <input class="radio" type="radio" id="option 2" value="value2" name="can_help">
+                    <label for="option 2">
+                        Готов помогать иногда. Хочу выбрать удобное для меня время
+                    </label>
+                    <br>
+                    <p class="text">
+                        Замечания
+                    </p>
+                    <textarea class="note" id="note" name="note" placeholder="Замечания" cols="20" rows="2"></textarea>
+                    <br>
+                    <div class="buttons">
+                        <button class="btn send" type="submit">Оставить заявку</button>
+                        <button class="btn exit" type="button">Отмена</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

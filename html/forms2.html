@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<body>
+    <h2>Забрать домой</h2>
+    <img src="">
+    <p>Моник, мальчик 7 месяцев </p>
+    <p>Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца.</p>
+<form action="index.html"
+method ="POST">
+<input
+    type="text"
+    id="name"
+    required
+    name="username"
+    placeholder="Фамилия и имя">
+    <br>
+<input
+    type="number"
+    id="telephone"
+    required
+    name="telephone"
+    placeholder="Номер телефона">
+    <br>
+    <textarea id="note"
+                name="note"
+                placeholder="Замечания"
+                cols="20"
+                rows="2">
+    </textarea>
+    <p>Если у вас есть вопросы, можете позвонить нам:
+        +375 (33) 6237879  Лена
+        +375 (29) 7877791  Ольга
+        +375 (29) 5837015  Рита</p>
+        <button type="submit">Отправть</button>
+        <button type="button">Отмена</button>
+
+</form>
+<h2>Забрать на передержку</h2>
+  <img src="">
+    <p>Моник, мальчик 7 месяцев </p>
+    <p>Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать 
+        себе питомца на передержку.</p>
+<form action="index.html"
+method ="POST">
+<input
+    type="text"
+    required
+    id="name"
+    name="username"
+    placeholder="Фамилия и имя">
+    <br>
+<input
+    type="number"
+    required
+    id="telephone"
+    name="telephone"
+    placeholder="Номер телефона">
+    <br>
+    <textarea id="note"
+                name="note"
+                placeholder="Замечания"
+                cols="20"
+                rows="2">
+    </textarea>
+    <p>Если у вас есть вопросы, можете позвонить нам:
+        +375 (33) 6237879  Лена
+        +375 (29) 7877791  Ольга
+        +375 (29) 5837015  Рита</p>
+        <button type="submit">Отправть</button>
+        <button type="button">Отмена</button>
+        <p>Наши волонтеры будут активно искать будущий дом хвостику, пока вы помогаете нам с передержкой.
+            Спасибо за помощь!</p>
+</form>
+<form>
+    <h2> Автопомощь</h2>
+    <h3>Заявка</h3>
+    <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в 
+    транспортировке, мы позвоним вам.</p>
+   <label for="name"> Фамилия и имя
+    </label>
+    <input
+        type="text"
+        id="name"
+        name="username"
+        required
+        placeholder="Фамилия и имя">
+        <br>
+    <input
+        type="number"
+        id="telephone"
+        name="telephone"
+        required
+        placeholder="Номер телефона">
+        <br>
+        <p> Выберите вид помощи </p>
+        <br>
+        <input type="checkbox"
+                id="1"
+                value="1"
+                name="1">
+                <label for="1">
+                Доставка еды, медикаментов и других небольших вещей
+                </label> <br>
+        <input type="checkbox"
+                id="2"
+                value="2"
+                checked
+                name="1">
+                <label for="2">
+                Доставка сена или соломы, строительных материлов 
+для будок и других крупногабаритных вещей
+                </label> <br>
+        <input type="checkbox"
+                id="3"
+                value="3"
+                name="1">
+                <label for="3">
+                Транспортировка небольших собак и котов
+                </label> <br>
+        <input type="checkbox"
+                id="4"
+                value="4"
+                name="1">
+                <label for="4">
+                Транспортировка больших собак
+                </label>
+                <br>
+
+    <textarea id="note"
+        name="note"
+        placeholder="Замечания"
+        cols="20"
+        rows="2">
+    </textarea>
+    <br>
+        <button type="submit">Оставить заявку</button>
+        <button type="button">Отмена</button>
+</form>
+
+<form>
+    <h2> Волонтерство</h2>
+    <h3>Заявка</h3>
+    <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь, мы позвоним вам.</p>
+   <label for="name"> Фамилия и имя
+    </label>
+    <input
+        type="text"
+        id="name"
+        name="username"
+        required
+        placeholder="Фамилия и имя">
+        <br>
+    <input
+        type="number"
+        id="telephone"
+        name="telephone"
+        required
+        placeholder="Номер телефона">
+        <br>
+    <input type="radio"
+            id="option 1"
+            value="value1"
+            name="can_help">
+            <label for="option 1">
+                Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)
+            </label>
+            <br>
+            <input type="radio"
+            id="option 2"
+            value="value2"
+            name="can_help">
+            <label for="option 2">
+                Готов помогать иногда. Хочу выбрать удобное для меня время
+            </label>
+            <br>
+        <textarea id="note"
+        name="note"
+        placeholder="Замечания"
+        cols="20"
+        rows="2">
+    </textarea>
+    <br>
+        <button type="submit">Оставить заявку</button>
+        <button type="button">Отмена</button>
+</form>
+</body>
+</html>
+
